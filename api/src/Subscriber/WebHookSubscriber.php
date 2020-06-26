@@ -3,7 +3,7 @@
 namespace App\Subscriber;
 
 use ApiPlatform\Core\EventListener\EventPriorities;
-use App\Service\TrouwService;
+use App\Service\VerhuisService;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent;
@@ -19,10 +19,10 @@ class WebHookSubscriber implements EventSubscriberInterface
     private $serializer;
     private $commonGroundService;
 
-    public function __construct(ParameterBagInterface $params, TrouwService $trouwService, CommongroundService $commonGroundService, SerializerInterface $serializer)
+    public function __construct(ParameterBagInterface $params, VerhuisService $verhuisService, CommongroundService $commonGroundService, SerializerInterface $serializer)
     {
         $this->params = $params;
-        $this->trouwService = $trouwService;
+        $this->verhuisService = $verhuisService;
         $this->commonGroundService = $commonGroundService;
         $this->serializer = $serializer;
     }
@@ -58,7 +58,7 @@ class WebHookSubscriber implements EventSubscriberInterface
             return;
         }
 
-        $this->trouwService->webHook($task, $resource);
+        $this->verhuisService->webHook($task, $resource);
 
     }
 }

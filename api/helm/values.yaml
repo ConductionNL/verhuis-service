@@ -4,18 +4,18 @@
 
 settings:
   registryBase: docker.io/conduction
-  projectName: ts
-  name: ts
-  title: Trouw Service
+  projectName: vs
+  name: vs
+  title: Verhuis Service
   version: V.0.1
   id: 
   description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.&#039;'
   type: component
-  repro: https://github.com/ConductionNL/trouw-service
-  demo: ts.zaakonline.nl
-  container: https://hub.docker.com/repository/docker/conduction/ts-php
-  domain: conduction.nl
-  subdomain: ts
+  repro: https://github.com/ConductionNL/verhuis-service
+  demo: vs.zuid-drecht.nl
+  container: https://hub.docker.com/repository/docker/conduction/vs-php
+  domain: zuid-drecht.nl
+  subdomain: vs
   organisationName: Conduction
   email: info@conduction.nl
   country: Netherlands
