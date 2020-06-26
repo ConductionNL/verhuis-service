@@ -38,16 +38,16 @@ class VerhuisService
     public function setBsn(array $task, array $resource)
     {
         $wiebsn = [];
-        if(array_key_exists('wie',$resource['properties'])){
+        if(array_key_exists('wie',$resource['properties']) && !is_array($resource['properties']['wie'])){
             $wie = str_replace(["[","}"],"",$resource['properties']['wie']);
             $wie = explode(",", $wie);
             foreach ($wie as $brpurl){
                 $wiebsn[] = $this->commonGroundService->getUuidFromUrl($brpurl);
             }
+            $resource['properties']['wie'] = $wie;
+            $resource['properties']['wiebsn'] = $wiebsn;
         }
-
-        $resource['properties']['wiebsn'] = $wiebsn;
-
+        
         return $resource;
     }
 }
