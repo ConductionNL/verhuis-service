@@ -19,6 +19,9 @@
     "api-platform/schema-generator": {
         "version": "v2.1.0"
     },
+    "beberlei/doctrineextensions": {
+        "version": "v1.2.7"
+    },
     "behat/transliterator": {
         "version": "v1.2.0"
     },
@@ -701,6 +704,9 @@
     },
     "twig/twig": {
         "version": "v2.11.3"
+    },
+    "webimpress/safe-writer": {
+        "version": "2.1.0"
     },
     "webmozart/assert": {
         "version": "1.4.0"
