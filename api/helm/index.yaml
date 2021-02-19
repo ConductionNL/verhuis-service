@@ -3,14 +3,14 @@ entries:
   vs:
   - apiVersion: v1
     appVersion: V.0.1
-    created: "2020-06-26T08:49:50.1204985Z"
+    created: "2021-02-19T02:43:42.8040225Z"
     description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql)
       interface beschikbaar.&#039;'
-    digest: 7427a985f1d52c849baa11324f3cec24ef6ad50a8bba6f4ad8d79c3bfd6ad1ef
+    digest: 4e31e9d32469c8e93ae94b75abe726703c4a8cfd640d427a76cae0964d7e6a61
     home: vs.zuid-drecht.nl
     icon: vs.zuid-drecht.nl
     name: vs
     urls:
     - vs-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-26T08:49:50.1155601Z"
+generated: "2021-02-19T02:43:42.8000666Z"
