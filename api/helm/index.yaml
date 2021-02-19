@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.10.0
-    created: "2021-02-19T09:37:21.4509646Z"
+    created: "2021-02-19T16:46:04.0519522Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -37,10 +37,10 @@ entries:
   verhuis-service:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2021-02-19T09:37:21.4249472Z"
+    created: "2021-02-19T16:46:04.0336989Z"
     description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
       beschikbaar.
-    digest: a747acba07ad77fd10a00b8c82d5d3147d8c653e254235bc1a6ee9abcb0bda4b
+    digest: a0e17d6a8a5820647bc2549b4a0b2002d7c1f39ca6a8d7a693794550c6ac8816
     home: https://www.conduction.nl
     icon: https://conductionnl.github.io/images/conduction_avatar_blue_on_transparant.svg
     keywords:
@@ -60,4 +60,4 @@ entries:
     urls:
     - verhuis-service-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-19T09:37:21.4111445Z"
+generated: "2021-02-19T16:46:04.0229884Z"
