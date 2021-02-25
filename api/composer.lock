@@ -694,6 +694,11 @@
                 "postcode",
                 "rsin"
             ],
+            "support": {
+                "email": "ruben@conduction.nl",
+                "issues": "https://github.com/ConductionNL/ConductionCommonGroundBundle/issues",
+                "source": "https://github.com/ConductionNL/ConductionCommonGroundBundle"
+            },
             "time": "2021-02-19T12:06:13+00:00"
         },
         {
@@ -11583,5 +11588,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
