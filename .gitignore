@@ -9,3 +9,9 @@ api/helm/kubeconfig.yaml
 
 api/helm/*-kubeconfig.yaml
 api/helm/kubeconfig*
+
+.cache/
+node_modules/
+public/
+.DS_Store
+npm-debug.log
