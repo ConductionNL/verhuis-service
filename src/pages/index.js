@@ -25,7 +25,7 @@ import integrationImage from '../images/undraw_hologram_fjwp.svg'
 const IndexPage = ({ location }) => (
   <Layout>
     <SEO title="Verhuizen" />
-    <Background backgroundColor="#cbce1c">
+    <Background backgroundColor="#AD9156">
       <Container>
         <Navigation as="nav" location={location} />
         <Section>
@@ -33,7 +33,7 @@ const IndexPage = ({ location }) => (
         </Section>
       </Container>
     </Background>
-    <Background backgroundColor="#000000">
+    <Background backgroundColor="#00205C">
       <Container>
         <Logos />
       </Container>
@@ -113,7 +113,7 @@ const IndexPage = ({ location }) => (
       </Section>
 
     </Container>
-    <Background backgroundColor="#f5f5f6">
+    <Background backgroundColor="#00205C">
       <Container>
         <Section>
           <Heading align="center" fontSize="2rem">Roadmap</Heading>
