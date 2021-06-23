@@ -56,10 +56,10 @@ const Navigation = ({ location }) => {
           </StyledListItem>
         ))}
         <StyledListItem>
-          <a href={site.siteMetadata.repositoryUrl} target="_blank" rel="noopener noreferrer" aria-label="Bekijk project op Github">
+          <a href="https://github.com/ConductionNL/verhuis-service" target="_blank" rel="noopener noreferrer" aria-label="Bekijk project op Github">
             <GithubLogo width="26px" height="24px" />
           </a>
-          <a href={site.siteMetadata.slackUrl} target="_blank" rel="noopener noreferrer" aria-label="Wordt lid van het Signalen kanaal op de Common Ground Slack">
+          <a href="https://samenorganiseren.slack.com" target="_blank" rel="noopener noreferrer" aria-label="Wordt lid van het Signalen kanaal op de Common Ground Slack">
             <SlackLogo width="26px" />
           </a>
         </StyledListItem>

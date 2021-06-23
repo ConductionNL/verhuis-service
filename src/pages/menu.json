@@ -1,29 +1,14 @@
 {
   "nl": [
     {
-      "title": "Nieuws",
-      "link": "/news/",
+      "title": "Demo",
+      "link": "https://verhuizen.demodam.nl/",
       "partiallyActive": false
     },
     {
-      "title": "Sluit je aan",
-      "link": "/join",
-      "partiallyActive": true
-    },
-    {
-      "title": "Organisaties",
-      "link": "/organizations",
+      "title": "Installatie",
+      "link": "/installatie",
       "partiallyActive": false
-    },
-    {
-      "title": "Ambassadeurs",
-      "link": "/ambassadors",
-      "partiallyActive": true
-    },
-    {
-      "title": "Governance",
-      "link": "/governance",
-      "partiallyActive": true
     },
     {
       "title": "Contact",
