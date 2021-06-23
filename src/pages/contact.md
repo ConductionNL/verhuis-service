@@ -1,14 +1,18 @@
   
 # Contact
 ## Product Owner
-Gemeente Utrecht
+Gemeente 's-Hertogenbosch
 
-Telefoon 14 030
+Telefoon (073) 615 51 55  
+E-mail gemeente@s-hertogenbosch.nl
 
-Adres  
-Stadskantoor  
-Stadsplateau 1  
-3521AZ Utrecht
+Bezoekadres  
+Wolvenhoek 1  
+5211 HH 'S-HERTOGENBOSCH
+
+Postadres  
+Postbus 12345  
+5200 GZ 'S-HERTOGENBOSCH
 ## Technische realisatie
 [Conduction b.v.]( https://www.conduction.nl/)  
 [info@conduction.nl](mailto:info@conduction.nl)  
